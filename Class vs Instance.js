@@ -25,7 +25,7 @@ function Person(initialAge){
         console.log('Age is not valid, setting age to 0.');
         this.age = 0;
     }
-    // Add some more code to run some checks on initialAge
+    // Add some more code to run some checks on initial Age
   this.amIOld=function(){
    // Do some computations in here and print out the correct statement to the console
    if(this.age < 13){
